@@ -1,27 +1,6 @@
 {
   "contacts": [
     {
-      "id": 1,
-      "firstName": "Scarlett",
-      "lastName": "Brown",
-      "locationId": 1,
-      "phone": "702 456 1232"
-    },
-    {
-      "id": 2,
-      "firstName": "Charlize",
-      "lastName": "Theron",
-      "locationId": 2,
-      "phone": "801 777 1232"
-    },
-    {
-      "id": 3,
-      "firstName": "Jennifer",
-      "lastName": "Lawrence",
-      "locationId": 3,
-      "phone": "720 777 8888"
-    },
-    {
       "id": 4,
       "firstName": "Leonardo",
       "lastName": "DiCaprio",
@@ -41,6 +20,20 @@
       "lastName": "Washington",
       "locationId": 3,
       "phone": "720 123 4567"
+    },
+    {
+      "firstName": "Scarlett",
+      "lastName": "Yohanson",
+      "locationId": 1,
+      "phone": "986 765 432",
+      "id": 8
+    },
+    {
+      "firstName": "Scarlett",
+      "lastName": "Yohanson",
+      "locationId": 3,
+      "phone": "913 963 819",
+      "id": 9
     }
   ],
   "locations": [

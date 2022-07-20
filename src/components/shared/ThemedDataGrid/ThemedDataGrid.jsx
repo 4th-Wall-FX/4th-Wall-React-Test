@@ -24,14 +24,19 @@ const GridHeading = styled(Grid)({
     color: '#999',
 })
 
-const ThemedDataGrid = ({ dataArray, viewHandler, editHandler, removeHandler }) => {
+const ThemedDataGrid = ({ headingText, dataArray, viewHandler, editHandler, removeHandler }) => {
     return (
         <ThemedGridContainer container item spacing={1} xs={12} sm={10} md={6}>
-            <GridHeading item xs={12}>
-                <Typography>All Contacts</Typography>
-            </GridHeading>
+            {
+                headingText && (
+                    <GridHeading item xs={12}>
+                        <Typography>{headingText}</Typography>
+                    </GridHeading>
+
+                )
+            }
             {dataArray.map(({ id, text, viewIcon, editIcon, removeIcon }) => (
-                <Grid key={id} item xs={12} sx={{ paddingRight: '8px'}} >
+                <Grid key={id} item xs={12} sx={{ paddingRight: '8px' }} >
                     <ThemedPaper>
                         <Typography>
                             {text}

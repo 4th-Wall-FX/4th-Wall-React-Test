@@ -162,7 +162,13 @@ const Contacts = () => {
         <Layout currentMenuId={1} buttonClickHandler={() => createContact()}>
             {
                 !loading && (
-                    <ThemedDataGrid dataArray={dataArray} viewHandler={viewDetails} editHandler={editContact} removeHandler={removeContact} />
+                    <ThemedDataGrid
+                        headingText={'All Contacts'}
+                        dataArray={dataArray}
+                        viewHandler={viewDetails}
+                        editHandler={editContact}
+                        removeHandler={removeContact}
+                    />
                 )
             }
             {
