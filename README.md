@@ -27,3 +27,23 @@
 
 
 ## Changes Made
+- Installed library ```react-router-dom``` for routing purposes, and created Two routes: the first one is our home ('/') and shows our Contacts list, and the second one ('/contacts') is the page that shows our Locations list.
+- Created the folder ```components```, and inside it ```shared``` and ```pages```. The components folder was created aiming the centralization of the components used in this project. The shared folter was filled with components that should be reused. The pages folders was created for holding the components called direct from the routes.
+- Installed library ```react-hook-form``` for creating and managing forms with hooks.
+- Implemented view, update, create and delete functions for the contacts page and also the view function for the locations page.
+
+## Changes Needed
+
+- Better styles, update the MUITheme to match the desired StyleGuide, and then update the colors pulling from the Design StyleGuide and Company brandmark.
+- Better Loading syntax, with an animated image and also displaying in front of the modals, so it would maintain the modal opened until the succcess of the request, and then it would be closed after it.
+- Error handling, it is important to notify the users when something goes wrong with the requests.
+- Testing: Testing especially the shared components is a great way to maintain the core components away from bad behaviours
+- Better linting structure
+- Use of git flow pattern 
+
+
+## Final Thoughts
+It was a great and simple test to do and understand how should I  implement basic features, a basic project with all the most basic stuff like: routing, form handling, components organization, use of hooks. \
+My only concern was that I had less time then I wanted, so I had the feeling that I could do something better. It was a hard period to make this test, but I've tried to achieve the best result possible with the time I had.\
+Thanks for the opportunity!!
+
