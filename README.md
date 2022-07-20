@@ -42,3 +42,8 @@
 - Use of git flow pattern 
 
 
+## Final Thoughts
+It was a great and simple test to do and understand how should I  implement basic features, a basic project with all the most basic stuff like: routing, form handling, components organization, use of hooks. \
+My only concern was that I had less time then I wanted, so I had the feeling that I could do something better. It was a hard period to make this test, but I've tried to achieve the best result possible with the time I had.\
+Thanks for the opportunity!!
+
